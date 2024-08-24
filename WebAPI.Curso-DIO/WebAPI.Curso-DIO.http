@@ -1,0 +1,6 @@
+@WebAPI.Curso_DIO_HostAddress = http://localhost:5083
+
+GET {{WebAPI.Curso_DIO_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
