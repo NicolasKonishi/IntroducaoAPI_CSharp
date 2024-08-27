@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebAPI.Curso_DIO.Entities;
 
 namespace WebAPI.Curso_DIO.Controllers
 {
@@ -24,5 +25,7 @@ namespace WebAPI.Curso_DIO.Controllers
             var mensagem = $"Olá {nome}, seja bem vindo!";
             return Ok(new { mensagem });
         }
+
+        
     }
 }
