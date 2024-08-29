@@ -63,9 +63,7 @@ namespace WebAPI.Curso_DIO.Controllers
             }
             _context.Contatos.Remove(contatoBranco);
             _context.SaveChanges();
-                return NoContent();
-            }
+            return NoContent();
         }
-
     }
 }
